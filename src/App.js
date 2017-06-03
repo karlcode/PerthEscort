@@ -33,12 +33,11 @@ class App extends Component {
           transitionEnter={false}
           transitionLeave={false}>
           <Route exact path="/" component={Home}/>
-          </CSSTransitionGroup>
           <Route path="/about" component={About}/>
           <Route path="/services" component={Services}/>
           <Route path="/faq" component={FAQ}/>
           <Route path="/contact" component={Contact}/>
-          
+          </CSSTransitionGroup>
         </div>
       </Router>
     );

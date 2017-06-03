@@ -5,7 +5,7 @@ export default class FAQ extends Component {
   render() {
     return (
       <div>
-          <h1>Hi</h1>
+          <h1>I am safe etc</h1>
       </div>
     );
   }
