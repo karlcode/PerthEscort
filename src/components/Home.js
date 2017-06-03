@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import '../styles/Style.css';
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="content">
           <h1>Greetings my lovely,
 
 Thank you for making your way to my site. As our society has evolved into a more

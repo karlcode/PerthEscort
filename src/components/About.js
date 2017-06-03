@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import '../styles/Style.css';
 
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className="content">
           <h1>I am 36 years old, of Latin origin, fair skinned and dark haired, well hung, handsome,
 
 stunning hazel eyes with a toned and lean body, I stand 6ft tall. I have enjoyed a

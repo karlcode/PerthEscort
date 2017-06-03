@@ -16,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <ul>
+        <div >
+          <ul >
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Services and Rates</Link></li>
@@ -26,18 +26,22 @@ class App extends Component {
           </ul>
 
           <hr/>
-          <CSSTransitionGroup
-          transitionName="example"
-          transitionAppear={true}
-          transitionAppearTimeout={500}
-          transitionEnter={false}
-          transitionLeave={false}>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/services" component={Services}/>
-          <Route path="/faq" component={FAQ}/>
-          <Route path="/contact" component={Contact}/>
-          </CSSTransitionGroup>
+          <div className="container">
+            <CSSTransitionGroup
+            transitionName="example"
+            transitionAppear={true}
+            transitionAppearTimeout={500}
+            transitionEnter={false}
+            transitionLeave={false}>
+            <div className="half">
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/services" component={Services}/>
+            <Route path="/faq" component={FAQ}/>
+            <Route path="/contact" component={Contact}/>
+            </div>
+            </CSSTransitionGroup>
+          </div>
         </div>
       </Router>
     );

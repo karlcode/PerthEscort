@@ -26,3 +26,22 @@
   opacity: 1;
   transition: opacity .5s ease-in;
 }
+
+.container{
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.half{
+    position: relative;
+    box-sizing: border-box;
+    float:right;
+    width: 60%;
+    background-color: #fff;
+    
+
+}
