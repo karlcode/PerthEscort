@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import { CSSTransitionGroup } from 'react-transition-group'
 import Home from './components/Home'
 import About from './components/About'
 import Services from './components/Services'
@@ -27,12 +26,7 @@ class App extends Component {
 
           <hr/>
           <div className="container">
-            <CSSTransitionGroup
-            transitionName="example"
-            transitionAppear={true}
-            transitionAppearTimeout={500}
-            transitionEnter={false}
-            transitionLeave={false}>
+            
             <div className="half">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
@@ -40,7 +34,7 @@ class App extends Component {
             <Route path="/faq" component={FAQ}/>
             <Route path="/contact" component={Contact}/>
             </div>
-            </CSSTransitionGroup>
+           
           </div>
         </div>
       </Router>
