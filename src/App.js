@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <Router>
         <div >
-          <ul >
+          <ul className="navigation">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Services and Rates</Link></li>
@@ -24,9 +24,7 @@ class App extends Component {
             <li><Link to="/contact">Contact</Link></li>
           </ul>
 
-          <hr/>
           <div className="container">
-            
             <div className="half">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>

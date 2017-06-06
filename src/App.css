@@ -34,6 +34,8 @@
     flex-flow: row;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .half{
@@ -41,6 +43,11 @@
     box-sizing: border-box;
     float:right;
     width: 60%;
-    
-
+}
+.navigation{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.6);
+  margin: 0;
 }

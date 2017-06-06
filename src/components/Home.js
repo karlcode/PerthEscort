@@ -5,6 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="content">
+        <img src={require('../photo2.jpg')} alt="hi" />
           <h1>Greetings my lovely,
 
 Thank you for making your way to my site. As our society has evolved into a more
