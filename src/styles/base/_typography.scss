@@ -1,0 +1,13 @@
+$primary-font: #333;
+
+$primary-dark: #163464;
+$primary: #27477B;
+$primary-light: #637EA9;
+$active: #1D7667;
+$active-light: #59A195;
+
+body, p, i, h1, h2, h3, h4, h5, h6 {
+    color: $primary-font;
+    font-family: 'Roboto', 'Arial', 'Serif'; 
+}
+
