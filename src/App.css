@@ -34,6 +34,8 @@
     flex-flow: row;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .half{
@@ -41,7 +43,8 @@
     box-sizing: border-box;
     float:right;
     width: 60%;
-    background-color: #fff;
-    
-
 }
+
+
+
+

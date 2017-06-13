@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/Style.css';
 
 export default class About extends Component {
   render() {

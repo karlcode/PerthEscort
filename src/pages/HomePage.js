@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import "./HomePage.css";
+import './HomePage.css';
 
-class HomePage extends Component {
-    render() {
-        return (
-            <div>
-                <div className="landing-bg"/>
-                <h1>gregre</h1>
-            </div>
-        );
-    }
+export default class Home extends Component {
+render() {
+  return (
+    <div id="home">
+        <div id="home-title">
+          <h1>Josh Chase</h1>
+          <h3>Perth's elite female companion</h3>
+        </div>
+      </div>
+    );
+  }
 }
-
-export default HomePage;
