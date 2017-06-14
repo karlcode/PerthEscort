@@ -9,26 +9,28 @@ export default class Services extends Component {
           <Row>
             <Col xs={12}>
               <Row left="xs">
-                <h1>Services offered (in the privacy of your home or hotel room)</h1>
+                <h1>Services offered</h1><h3>(In the privacy of your home or hotel room)</h3>
               </Row>
               <Row left="xs" around="xs">
-                <Col xs={2}><li>Affectionate kissing</li>
+                <Col xs={3}><li>Affectionate kissing</li>
                             <li>Cuddling and touching</li>
                             <li>Mutual French</li>
                             <li>Light bondage</li> </Col>
-                <Col xs={2}><li>Shower for two</li>
+                <Col xs={3}><li>Shower for two</li>
                             <li>Passionate kissing</li>
                             <li>Oral</li>
                             <li>French kissing</li> </Col>
-                <Col xs={2}><li>Sensual body massage</li>
+                <Col xs={3}><li>Sensual body massage</li>
                             <li>Variety of positions</li>
                             <li>Mutual masturbationg</li></Col>
-                <Col xs={2}><li>Stripping</li>
+                <Col xs={3}><li>Stripping</li>
                             <li>2 girls | 1 guy</li>
                             <li>Couples</li></Col>
               </Row>
             </Col> 
           </Row>
+          </Grid>
+        <Grid>
         <div className="dark-bg">
           <Row>
             <Col xs={12}>

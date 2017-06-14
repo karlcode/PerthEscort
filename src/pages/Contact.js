@@ -6,7 +6,7 @@ export default class Contact extends Component {
     return (
       <div className="dark-bg">
         <Grid>
-            <Row>
+            <Row >
               <Col xs={12} md={8}>
               <Row left="xs">
                    <h1>The dreaded first contact </h1>
