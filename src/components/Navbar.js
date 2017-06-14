@@ -6,10 +6,10 @@ import {
 } from 'react-router-dom'
 
 import Home from '../pages/HomePage'
-import About from './About'
-import Services from './Services'
-import FAQ from './FAQ'
-import Contact from './Contact'
+import About from '../pages/About'
+import Services from '../pages/Services'
+import FAQ from '../pages/FAQ'
+import Contact from '../pages/Contact'
 
 import './Navbar.css';
 
