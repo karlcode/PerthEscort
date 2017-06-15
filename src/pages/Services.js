@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import './Services.css';
 
 export default class Services extends Component {
   render() {
     return (
        <div className="dark-bg">
-        <Grid>
+        <Grid fluid>
           <Row>
             <Col xs={12}>
-              <Row left="xs">
-                <h1>Services offered</h1><h3>(In the privacy of your home or hotel room)</h3>
+              <Row center="xs">
+                <h1>Services offered</h1>
               </Row>
-              <Row left="xs" around="xs">
-                <Col xs={3}><li>Affectionate kissing</li>
-                            <li>Cuddling and touching</li>
-                            <li>Mutual French</li>
-                            <li>Light bondage</li> </Col>
-                <Col xs={3}><li>Shower for two</li>
-                            <li>Passionate kissing</li>
-                            <li>Oral</li>
-                            <li>French kissing</li> </Col>
-                <Col xs={3}><li>Sensual body massage</li>
-                            <li>Variety of positions</li>
-                            <li>Mutual masturbationg</li></Col>
-                <Col xs={3}><li>Stripping</li>
-                            <li>2 girls | 1 guy</li>
-                            <li>Couples</li></Col>
+              <Row center="xs" around="xs" className="hoverable">
+                <Col xs={3}><h2>Affectionate kissing</h2>
+                            <h2>Cuddling and touching</h2>
+                            <h2>Mutual French</h2>
+                             </Col>
+                <Col xs={3}><h2>Shower for two</h2>
+                            <h2>Passionate kissing</h2>
+                            <h2>Oral</h2>
+                            <h2>French kissing</h2> </Col>
+                <Col xs={3}><h2>Sensual body massage</h2>
+                            <h2>Variety of positions</h2>
+                            <h2>Mutual masturbation</h2></Col>
+                <Col xs={3}><h2>Stripping</h2>
+                            <h2>2 girls | 1 guy</h2>
+                            <h2>Couples</h2>
+                            <h2>Tight bondage</h2></Col>
               </Row>
             </Col> 
           </Row>
@@ -35,8 +37,19 @@ export default class Services extends Component {
           <Row>
             <Col xs={12}>
               <Row center="xs" around="xs">
-                <Col xs={12} md={5}><h1>Therapeutic body service</h1> </Col>
-                <Col xs={12} md={5}><h1>Erotic sensual playdates</h1></Col>
+                <Col xs={12} sm={5}>
+                <h1>Therapeutic body service</h1>
+                <Row>
+                  <h2>Sensual Body Rub  $120 / 1 hour</h2>
+                </Row>
+                <Row>
+                  <h2>Sensual Body Rub  $120 / 1 hour</h2>
+                </Row>
+                <Row>
+                  <h2>Sensual Body Rub  $120 / 1 hour</h2>
+                </Row>  
+                </Col>
+                <Col xs={12} sm={5}><h1>Erotic sensual playdates</h1></Col>
                
               </Row>
             </Col>

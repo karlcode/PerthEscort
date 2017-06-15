@@ -7,24 +7,27 @@ export default class Contact extends Component {
       <div className="dark-bg">
         <Grid>
             <Row >
-              <Col xs={12} md={8}>
+              <Col xs={12} sm={7}>
               <Row left="xs">
-                   <h1>The dreaded first contact </h1>
-
-          If you are contacting me for the first time then please don't be nervous, I can understand your
-
-          apprehension, I shall endeavour to put you at ease. If you would feel more comfortable with sending
-          a text or an email please do so. In order to maintain the mystique of our dealings, majority of my
-
-          clients prefer to communicating in writing to discuss the finer details.
-
-          Phone: +61 to be advised email: companionjosh@yahoo.com
-         
+                  <h1>The dreaded first contact... </h1>
+                  <h2>
+                  If you are here contacting me for the first time then please don't feel nervous as I can understand your apprehension and I shall endeavour to put you at ease.</h2>
+                  </Row> 
+              <Row left="xs">
+                  <h2>
+              If you would feel more comfortable with sending a text or an email, please feel free to do so. In order to maintain the mystique of our dealings, the majority of my clients prefer to communicating in writing to discuss the finer details.
+                </h2>
+              </Row>
+              <Row left="xs">
+                  <h2>
+              In order to maintain the mystique of our dealings, the majority of my clients prefer to communicate in writing to discuss the finer details.
+                </h2>
               </Row>
           
             </Col>
-            <Col xs={12} md={4}>
-              <Row right="xs">
+            <Col sm={1}/>
+            <Col xs={12} sm={4}>
+              <Row left="xs">
                    <h1>
           Phone: +61 to be advised
           </h1>

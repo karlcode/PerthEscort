@@ -1,5 +1,7 @@
-$primary-font: #333;
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i');
+
+$primary-font: grey;
 $primary-dark: #163464;
 $primary: #27477B;
 $primary-light: #637EA9;
@@ -8,6 +10,6 @@ $active-light: #59A195;
 
 body, p, i, h1, h2, h3, h4, h5, h6 {
     color: $primary-font;
-    font-family: 'Roboto', 'Arial', 'Serif'; 
+    font-family: 'Source Sans Pro', 'Arial', 'Serif'; 
 }
 

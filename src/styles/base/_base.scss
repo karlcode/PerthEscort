@@ -1,14 +1,13 @@
 body, html {
     margin: 0 !important;
     height: 100vh;
-    width: 100vw;
 }
 
 
 
 .overlay {
-    position: absolute;
-    z-index: 1;
+  position: absolute;
+  z-index: 1;
 }
 
 
@@ -19,11 +18,18 @@ body, html {
   background-color: ghostwhite;
   padding-top: 10rem;
   padding-bottom: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   color: black;
 }
 .dark-bg{
 
   padding-top: 10rem;
   padding-bottom: 10rem;
-
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+* {
+  min-height: 0;
+  min-width: 0;
 }

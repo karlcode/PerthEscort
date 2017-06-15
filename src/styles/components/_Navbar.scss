@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
 nav ul {
   position: fixed;
   top: 0;
@@ -9,6 +11,7 @@ nav ul {
 }
 
 nav a {
+  font-family: 'Playfair Display';
   float: left;
   display: block;
   color: #A3A3A3;
