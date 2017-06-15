@@ -42,3 +42,44 @@
   }
 }
 
+#home-welcome {
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+#home-welcome-left{
+  //background-color: red;
+}
+
+#home-welcome-right{
+  padding: 0;
+  img {
+    width: 100%;
+  }
+
+  
+}
+
+#home-welcome-right-tri {
+  width: 100%;
+  position: relative;
+  height: 150px;
+  background: white;
+
+  &:after {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(-6deg);
+  }
+}
+
