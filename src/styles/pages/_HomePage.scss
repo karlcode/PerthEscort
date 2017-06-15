@@ -1,3 +1,5 @@
+
+
 #home-landing {
   min-height: 80vh;
   background-image: url('./pages/images/home-background.jpg');
@@ -13,6 +15,8 @@
   transform: translateY(-50%);
 
   h1, h3 {
+    font-family: $heading-font;
+    font-weight: 200;
     color: $lighter;
     margin: 0;
   }
@@ -28,11 +32,11 @@
 }
 
 #home-down {
-  color: $darker;
+  color: $dark;
   font-size: 25px;
   position: absolute;
   left: 50%;
-  bottom: 3%;
+  bottom: 5%;
   animation: home-down-blinker 2s ease-out infinite;
 }
 
@@ -43,6 +47,11 @@
 }
 
 #home-welcome {
+  padding-top: $vertical-gap / 2;
+  padding-bottom: $vertical-gap / 4;
+}
+
+#home-split-images {
   .container-fluid {
     padding: 0 !important;
     margin: 0 !important;
@@ -54,25 +63,31 @@
   }
 }
 
-#home-welcome-left, #home-welcome-right{
+#home-signature {
+  padding-top: 30px;
+  font-size: 32px;
+  text-align: center;
+}
+
+#home-split-images-left, #home-split-images-right{
   padding: 0;
   margin: 0;
-  margin-bottom: -8px;
+  margin-bottom: -9px;
 
   img {
     width: 100%;
   } 
 }
 
-#home-welcome-left-tri, #home-welcome-right-tri {
+#home-split-images-left-tri, #home-split-images-right-tri {
   width: 100%;
   position: relative;
-  height: 60px;
-  background: white;
+  height: $vertical-gap / 2.5;
+  background: $light-panel;
 
   &:after {
     position: absolute;
-    height: 60px;
+    height: $vertical-gap / 2.5;
     width: 100%;
     content: '';
     background: inherit;
@@ -83,14 +98,14 @@
   }
 }
 
-#home-welcome-left-tri {
+#home-split-images-left-tri {
   &:after {
     transform: skewY(3deg);
     transform-origin: top left;
   }
 }
 
-#home-welcome-right-tri {
+#home-split-images-right-tri {
   &:after {
     transform-origin: top right;
     transform: skewY(-3deg);

@@ -10,12 +10,12 @@ class Footer extends Component {
         <div className="footer-bg">
             <Grid>
                 <Row center="xs">
-                    <h2> Josh Chase</h2>
+                    <h3> Josh Chase</h3>
                 </Row>
                 <Row center="xs">
-                    <Col xs={4}><h2><i className="fa fa-facebook-square" aria-hidden="true"></i> Follow me on Facebook</h2></Col>
-                    <Col xs={4}><h2><i className="fa fa-envelope-o" aria-hidden="true"></i> companionjosh@gmail.com</h2></Col>
-                    <Col xs={4}><h2><i className="fa fa-phone" aria-hidden="true"></i> +61 412 345 678</h2></Col>
+                    <Col xs={4}><p><i className="fa fa-facebook-square" aria-hidden="true"></i> Follow me on Facebook</p></Col>
+                    <Col xs={4}><p><i className="fa fa-envelope-o" aria-hidden="true"></i> companionjosh@gmail.com</p></Col>
+                    <Col xs={4}><p><i className="fa fa-phone" aria-hidden="true"></i> +61 412 345 678</p></Col>
                 </Row>
                 <Row center="xs">
                    <h4>Made by Loaft Digital Design </h4>

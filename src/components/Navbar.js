@@ -15,12 +15,13 @@ import { CSSTransitionGroup } from 'react-transition-group' // ES6
 class App extends Component {
   render() {
     return (
+      /*
       <CSSTransitionGroup
       transitionName="example"
       transitionAppear={true}
       transitionAppearTimeout={10000}
       transitionEnter={false}
-      transitionLeave={false}>
+      transitionLeave={false}>*/
       <Router >
         <div>
 
@@ -47,7 +48,7 @@ class App extends Component {
           
         </div>
       </Router>
-      </CSSTransitionGroup>
+      //</CSSTransitionGroup>
     );
   }
 }

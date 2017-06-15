@@ -1,0 +1,24 @@
+.footer-bg{
+  background-color: $primary;
+  padding-top: 3rem;
+  padding-bottom: 3rem - 1;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+.footer-bg {
+  p, h2, h3, h4 {
+    color: $dark;
+    font-family: 'Source Sans Pro';
+
+    i {
+      color: $dark;
+    }
+  }
+}
+
+.footer-bg {
+  p {font-size: 22px;}
+  h3 {font-size: 26px;}
+  h4 {font-size: 16px;}
+}

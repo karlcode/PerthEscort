@@ -1,16 +1,28 @@
 body, html {
-    margin: 0 !important;
-    background: black;
+  margin: 0 !important;
+}
 
+.container {
+  box-sizing: border-box;
+  padding: 0px 32px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.light-section, .dark-section {
+  padding: 9rem 0;
+}
+
+.light-section {
+  background-color: $light-panel;
+}
+
+.dark-section {
+  background-color: $dark-panel;
 }
 
 
-
-
-.overlay {
-  position: absolute;
-  z-index: 1;
-}
 
 
 
@@ -35,22 +47,7 @@ body, html {
 
 }
 
-.footer-bg{
-  background-color: $primary;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
 
-}
-.footer-bg h2, h4{
-  color: $darker;
-  font-family: 'Source Sans Pro';
-
-  i {
-    color: $darker;
-  }
-}
 
 .hoverable h2 {
   transition: all 0.5s;

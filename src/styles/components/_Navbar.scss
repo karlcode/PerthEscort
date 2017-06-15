@@ -1,20 +1,15 @@
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
-$nav-fontsize: 25px;
+$nav-fontsize: 20px;
 $nav-padding: 14px;
 $nav-height: $nav-fontsize + 2 * $nav-padding;
 
 body {
-  padding-top: $nav-height;
+  padding-top: $nav-height - 1;
 }
-
-
 
 .nav-left {
   padding-left: 2%;
   a {
-    font: "Calligraffitti";
+    font: $fancy-font;
     float: left;
   }
 }
@@ -23,10 +18,9 @@ body {
   padding-right: 2%;
   a {
     float: right;
-    font-weight: 200;
+    font-weight: 300;
   }
 }
-
 
 nav ul {
   background-color: $primary;
@@ -42,13 +36,10 @@ nav ul {
 }
 
 nav a {
-
-  font-family: 'Source Sans Pro';
+  font-family: $heading-font;
   float: left;
-
-
   display: block;
-  color: $darker;
+  color: $dark;
   padding-left: 14px;
   padding-right: 14px;
   text-align: center;
