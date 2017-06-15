@@ -3,17 +3,18 @@
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 body, p, i, h1, h2, h3, h4, h5, h6 {
-<<<<<<< HEAD
+
   color: grey;
   font-family: 'Source Sans Pro', 'Arial', 'Serif'; }
 
 body, html {
   margin: 0 !important;
-  height: 100vh; }
-=======
+  height: 100vh; 
+
   color: #333;
   font-family: 'Spectral', 'Arial', 'Serif';
-  font-weight: 300; }
+  font-weight: 300; 
+  }
 
 h1 {
   font-size: 32px; }
@@ -29,7 +30,7 @@ p {
 
 body, html {
   margin: 0 !important; }
->>>>>>> f10cdd875d347073a9be40610aa8468f656cecf4
+
 
 .overlay {
   position: absolute;
@@ -117,11 +118,10 @@ nav ul {
   line-height: 46px; }
 
 nav a {
-<<<<<<< HEAD
+
   font-family: 'Playfair Display';
   float: left;
-=======
->>>>>>> f10cdd875d347073a9be40610aa8468f656cecf4
+
   display: block;
   color: #A3A3A3;
   padding-left: 14px;
