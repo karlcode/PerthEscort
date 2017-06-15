@@ -6,7 +6,7 @@ export default class Contact extends Component {
     return (
       <div className="dark-bg">
         <Grid>
-            <Row >
+            <Row bottom="xs">
               <Col xs={12} sm={7}>
               <Row left="xs">
                   <h1>The dreaded first contact... </h1>
@@ -28,14 +28,17 @@ export default class Contact extends Component {
             <Col sm={1}/>
             <Col xs={12} sm={4}>
               <Row left="xs">
-                   <h1>
-          Phone: +61 to be advised
-          </h1>
+                <h1>
+                Phone: +61 433 444 444
+                </h1>
              
-              <h1>
-          Email: companionjosh@yahoo.com
-          </h1>
-         </Row>
+                <h1>
+                Email: companionjosh@yahoo.com
+                </h1>
+                <h1>
+                Fb icon
+                </h1>
+              </Row>
             </Col>
           </Row>
         </Grid> 

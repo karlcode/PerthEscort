@@ -19,7 +19,7 @@ export default class About extends Component {
       <div className="content">
       <div className="dark-bg">
       <Grid fluid>
-      <Row>
+      <Row middle="xs">
       <Col xs={12} sm={4}>
         <img src={picture} alt="hi"/>
       </Col>

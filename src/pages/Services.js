@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import './Services.css';
 
+
 export default class Services extends Component {
   render() {
     return (
@@ -12,6 +13,7 @@ export default class Services extends Component {
               <Row center="xs">
                 <h1>Services offered</h1>
               </Row>
+              <hr/>
               <Row center="xs" around="xs" className="hoverable">
                 <Col xs={3}><h2>Affectionate kissing</h2>
                             <h2>Cuddling and touching</h2>
@@ -32,6 +34,7 @@ export default class Services extends Component {
             </Col> 
           </Row>
           </Grid>
+          
         <Grid>
         <div className="dark-bg">
           <Row>
