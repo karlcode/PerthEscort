@@ -61,6 +61,21 @@ body, html {
   .footer-bg h2 i, h4 i {
     color: #A3A3A3; }
 
+.hoverable h2 {
+  transition: all 0.5s;
+  cursor: default; }
+  .hoverable h2:hover {
+    color: #fff;
+    transition: all 0.5s; }
+
+.light-panel {
+  background-color: white;
+  padding: 4rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .light-panel:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
 #home-landing {
   min-height: 80vh;
   background-image: url("./pages/images/home-background.jpg");

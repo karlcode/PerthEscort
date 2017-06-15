@@ -6,11 +6,11 @@ export default class Services extends Component {
   render() {
     return (
        <div className="dark-bg">
-        <Grid fluid>
+        <Grid fluid >
           <Row>
             <Col xs={12}>
               <Row center="xs">
-                <h1>Services offered</h1>
+                <h1><b>Services Offered</b></h1>
               </Row>
               <hr/>
               <Row center="xs" around="xs" className="hoverable">
@@ -34,25 +34,57 @@ export default class Services extends Component {
           </Row>
           </Grid>
           
-        <Grid>
+        <Grid fluid >
         <div className="dark-bg">
-          <Row>
+          <Row >
             <Col xs={12}>
               <Row center="xs" around="xs">
-                <Col xs={12} sm={5}>
-                <h1>Therapeutic body service</h1>
-                <Row>
-                  <h2>Sensual Body Rub  $120 / 1 hour</h2>
+                <Col xs={12} sm={5} className="light-panel">
+                <h1>Therapeutic Body Service</h1>
+                <hr/>
+                <Row center="xs">
+                  <Col xs={8}><h2>Sensual Body Rub</h2></Col>
+                  <Col xs={4}><h2>$120 / 1 hour</h2></Col>
                 </Row>
-                <Row>
-                  <h2>Sensual Body Rub  $120 / 1 hour</h2>
+                <Row center="xs">
+                  <Col xs={8}><h2>Tantric Yoni Massage</h2></Col>
+                  <Col xs={4}><h2>$120 / 1 hour</h2></Col>
                 </Row>
-                <Row>
-                  <h2>Sensual Body Rub  $120 / 1 hour</h2>
+                <Row center="xs">
+                  <Col xs={8}><h2>Erotic Latino Massage (inc. body rub)</h2></Col>
+                  <Col xs={4}><h2>$200 / 2 hours</h2></Col>
                 </Row>  
                 </Col>
-                <Col xs={12} sm={5}><h1>Erotic sensual playdates</h1></Col>
-               
+                <Col sm={1}/>
+                <Col xs={12} sm={5} className="light-panel">
+                <h1>Erotic Sensual Playdates</h1>
+                <hr/>
+                <Row center="xs">
+                  <Col xs={8}><h2>Cocktail Play Date</h2></Col>
+                  <Col xs={4}><h2>$150 / 1 hour</h2></Col>
+                </Row>
+                <Row center="xs">
+                  <Col xs={8}><h2>Sensual Fun and Play</h2></Col>
+                  <Col xs={4}><h2>$280 / 2 hours</h2></Col>
+                  
+                </Row>
+                <Row center="xs">
+                  <Col xs={8}><h2>Sensual Rendezvous </h2></Col>
+                  <Col xs={4}><h2>$400 / 3 hours</h2></Col>
+                  
+                </Row>
+                <Row center="xs">
+                  <Col xs={8}><h2>Dinner and Dessert Date </h2></Col>
+                  <Col xs={4}><h2>$500 / 4 hours</h2></Col>
+                  
+                </Row>
+                <Row center="xs">
+                  <Col xs={8}><h2>Night of Bliss (overnight) </h2></Col>
+                  <Col xs={4}><h2>$1200 / 8-12 hours</h2></Col>
+                  
+                </Row>  
+                </Col>
+                
               </Row>
             </Col>
           </Row>
