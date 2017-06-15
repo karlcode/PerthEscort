@@ -42,12 +42,7 @@
   }
 }
 
-#home-welcome {
-  .container-fluid {
-    padding: 0;
-    margin: 0;
-  }
-}
+
 
 #home-welcome-left{
   //background-color: red;
@@ -56,7 +51,7 @@
 #home-welcome-right{
   padding: 0;
   img {
-    width: 100%;
+    width: 80%;
   }
 
   
@@ -75,6 +70,26 @@
     content: '';
     background: inherit;
     top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(-6deg);
+  }
+}
+#home-welcome-right-tri2 {
+  width: 100%;
+  position: relative;
+  height: 150px;
+  background: white;
+
+  &:before {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    content: '';
+    background: inherit;
+    top: -150px;
     right: 0;
     bottom: 0;
     left: 0;

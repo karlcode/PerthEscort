@@ -35,15 +35,15 @@ render() {
 
       <section id="home-welcome">
         <Grid fluid>
-        <Row>
-          <Col xs={6} md={6} id="home-welcome-left">
-            <h1>Hello, world!</h1>
-          </Col>
-          <Col xs={6} md={6} id="home-welcome-right">
+        <Row center="xs">
+          
+          <Col xs={12} md={8} id="home-welcome-right">
             <div id="home-welcome-right-tri">
             </div>
 
-            <img src={joshBed} />
+            <img src={joshBed} alt="bed"/>
+            <div id="home-welcome-right-tri2">
+            </div>
           </Col>
         </Row>
       </Grid>
