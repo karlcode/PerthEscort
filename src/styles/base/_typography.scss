@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i');
 
 $primary-font: grey;
-=======
+
 $primary: #1D1D1D;
 
 
@@ -13,7 +13,7 @@ $darker: #A3A3A3;
 $lighter: #ddd;
 $lightest: #fff;
 
->>>>>>> f10cdd875d347073a9be40610aa8468f656cecf4
+
 $primary-dark: #163464;
 $primary-light: #637EA9;
 $active: #1D7667;
@@ -21,9 +21,8 @@ $active-light: #59A195;
 
 body, p, i, h1, h2, h3, h4, h5, h6 {
     color: $primary-font;
-<<<<<<< HEAD
-    font-family: 'Source Sans Pro', 'Arial', 'Serif'; 
-=======
+
+
     font-family: 'Spectral', 'Arial', 'Serif'; 
     font-weight: 300;
 }
@@ -38,9 +37,11 @@ p {
 
 .center {
     text-align: center;
->>>>>>> f10cdd875d347073a9be40610aa8468f656cecf4
-}
 
+}
+.sourcesans{
+    font-family: 'Source Sans Pro', 'Arial', 'Serif'; 
+}
 .fancy {
     font-family: 'Calligraffitti', 'Arial', 'Serif';
 }

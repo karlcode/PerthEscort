@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
-=======
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i');
+
 $nav-fontsize: 18px;
 $nav-padding: 14px;
 $nav-height: $nav-fontsize + 2 * $nav-padding;
@@ -26,7 +26,7 @@ body {
     font-weight: 200;
   }
 }
->>>>>>> f10cdd875d347073a9be40610aa8468f656cecf4
+
 
 nav ul {
   background-color: $primary;
@@ -42,11 +42,11 @@ nav ul {
 }
 
 nav a {
-<<<<<<< HEAD
-  font-family: 'Playfair Display';
+
+  font-family: 'Source Sans Pro';
   float: left;
-=======
->>>>>>> f10cdd875d347073a9be40610aa8468f656cecf4
+
+
   display: block;
   color: $darker;
   padding-left: 14px;
