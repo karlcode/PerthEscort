@@ -16,15 +16,15 @@ body, html {
 
 .light-bg{
   background-color: ghostwhite;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
   padding-left: 5rem;
   padding-right: 5rem;
   color: black;
 }
 .dark-bg{
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
   background-color: lightgrey;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -33,4 +33,17 @@ body, html {
   min-height: 0;
   min-width: 0;
 
+}
+
+.footer-bg{
+  background-color: $primary;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+.footer-bg h2, h4{
+  color: $darker;
+  font-family: 'Source Sans Pro';
 }

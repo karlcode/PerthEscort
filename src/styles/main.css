@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 body, p, i, h1, h2, h3, h4, h5, h6 {
@@ -31,15 +31,15 @@ body, html {
 
 .light-bg {
   background-color: ghostwhite;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
   padding-left: 5rem;
   padding-right: 5rem;
   color: black; }
 
 .dark-bg {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
   background-color: lightgrey;
   padding-left: 5rem;
   padding-right: 5rem; }
@@ -47,6 +47,17 @@ body, html {
 * {
   min-height: 0;
   min-width: 0; }
+
+.footer-bg {
+  background-color: #1D1D1D;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.footer-bg h2, h4 {
+  color: #A3A3A3;
+  font-family: 'Source Sans Pro'; }
 
 #home-landing {
   min-height: 80vh;
@@ -82,7 +93,7 @@ body, html {
     opacity: 0.1; } }
 
 body {
-  padding-top: 46px; }
+  padding-top: 53px; }
 
 .nav-left {
   padding-left: 2%; }
@@ -106,7 +117,7 @@ nav ul {
   padding: 0 0px;
   list-style-type: none;
   text-align: center;
-  line-height: 46px; }
+  line-height: 53px; }
 
 nav a {
   font-family: 'Source Sans Pro';
@@ -117,7 +128,7 @@ nav a {
   padding-right: 14px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   transition: all 0.5s; }
   nav a:hover {
     background-color: #ddd;
