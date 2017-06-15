@@ -58,6 +58,8 @@ body, html {
 .footer-bg h2, h4 {
   color: #A3A3A3;
   font-family: 'Source Sans Pro'; }
+  .footer-bg h2 i, h4 i {
+    color: #A3A3A3; }
 
 #home-landing {
   min-height: 80vh;
@@ -92,46 +94,44 @@ body, html {
   50% {
     opacity: 0.1; } }
 
-#home-welcome-right {
-  padding: 0; }
-  #home-welcome-right img {
-    width: 80%; }
+#home-welcome .container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important; }
 
-#home-welcome-right-tri {
+#home-welcome .row {
+  margin: 0; }
+
+#home-welcome-left, #home-welcome-right {
+  padding: 0;
+  margin: 0;
+  margin-bottom: -8px; }
+  #home-welcome-left img, #home-welcome-right img {
+    width: 100%; }
+
+#home-welcome-left-tri, #home-welcome-right-tri {
   width: 100%;
   position: relative;
-  height: 150px;
+  height: 60px;
   background: white; }
-  #home-welcome-right-tri:after {
+  #home-welcome-left-tri:after, #home-welcome-right-tri:after {
     position: absolute;
-    height: 150px;
+    height: 60px;
     width: 100%;
     content: '';
     background: inherit;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    transform-origin: top right;
-    transform: skewY(-6deg); }
+    left: 0; }
 
-#home-welcome-right-tri2 {
-  width: 100%;
-  position: relative;
-  height: 150px;
-  background: white; }
-  #home-welcome-right-tri2:before {
-    position: absolute;
-    height: 150px;
-    width: 100%;
-    content: '';
-    background: inherit;
-    top: -150px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top right;
-    transform: skewY(-6deg); }
+#home-welcome-left-tri:after {
+  transform: skewY(3deg);
+  transform-origin: top left; }
+
+#home-welcome-right-tri:after {
+  transform-origin: top right;
+  transform: skewY(-3deg); }
 
 body {
   padding-top: 53px; }

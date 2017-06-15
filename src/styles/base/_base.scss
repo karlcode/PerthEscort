@@ -46,4 +46,8 @@ body, html {
 .footer-bg h2, h4{
   color: $darker;
   font-family: 'Source Sans Pro';
+
+  i {
+    color: $darker;
+  }
 }

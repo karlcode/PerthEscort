@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import joshRunwaySuit from './images/josh-runway-suit.jpg';
 import joshBed from './images/josh-bed.jpg';
 
 export default class Home extends Component {
@@ -35,19 +36,19 @@ render() {
 
       <section id="home-welcome">
         <Grid fluid>
-        <Row center="xs">
-          
-          <Col xs={12} md={8} id="home-welcome-right">
-            <div id="home-welcome-right-tri">
-            </div>
-
-            <img src={joshBed} alt="bed"/>
-            <div id="home-welcome-right-tri2">
-            </div>
-          </Col>
-        </Row>
-      </Grid>
-        
+          <Row>
+            <Col xs={6} md={6} id="home-welcome-left">
+              <div id="home-welcome-left-tri">
+              </div>
+              <img src={joshRunwaySuit} alt="bed"/>
+            </Col>
+            <Col xs={6} md={6} id="home-welcome-right">
+              <div id="home-welcome-right-tri">
+              </div>
+              <img src={joshBed} alt="bed"/>
+            </Col>
+          </Row>
+        </Grid>
       </section>
 
 

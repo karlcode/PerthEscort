@@ -13,7 +13,7 @@ class Footer extends Component {
                     <h2> Josh Chase</h2>
                 </Row>
                 <Row center="xs">
-                    <Col xs={4}><h2> FB icon</h2></Col>
+                    <Col xs={4}><h2><i className="fa fa-facebook-square" aria-hidden="true"></i></h2></Col>
                     <Col xs={4}><h2> companionjosh@gmail.com</h2></Col>
                     <Col xs={4}><h2> 0412 345 678</h2></Col>
                 </Row>

@@ -42,30 +42,37 @@
   }
 }
 
-
-
-#home-welcome-left{
-  //background-color: red;
-}
-
-#home-welcome-right{
-  padding: 0;
-  img {
-    width: 80%;
+#home-welcome {
+  .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
   }
 
-  
+  .row {
+    margin : 0;
+  }
 }
 
-#home-welcome-right-tri {
+#home-welcome-left, #home-welcome-right{
+  padding: 0;
+  margin: 0;
+  margin-bottom: -8px;
+
+  img {
+    width: 100%;
+  } 
+}
+
+#home-welcome-left-tri, #home-welcome-right-tri {
   width: 100%;
   position: relative;
-  height: 150px;
+  height: 60px;
   background: white;
 
   &:after {
     position: absolute;
-    height: 150px;
+    height: 60px;
     width: 100%;
     content: '';
     background: inherit;
@@ -73,28 +80,19 @@
     right: 0;
     bottom: 0;
     left: 0;
-    transform-origin: top right;
-    transform: skewY(-6deg);
-  }
-}
-#home-welcome-right-tri2 {
-  width: 100%;
-  position: relative;
-  height: 150px;
-  background: white;
-
-  &:before {
-    position: absolute;
-    height: 150px;
-    width: 100%;
-    content: '';
-    background: inherit;
-    top: -150px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top right;
-    transform: skewY(-6deg);
   }
 }
 
+#home-welcome-left-tri {
+  &:after {
+    transform: skewY(3deg);
+    transform-origin: top left;
+  }
+}
+
+#home-welcome-right-tri {
+  &:after {
+    transform-origin: top right;
+    transform: skewY(-3deg);
+  }
+}
