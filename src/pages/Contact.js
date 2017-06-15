@@ -36,7 +36,7 @@ export default class Contact extends Component {
                 Email: companionjosh@yahoo.com
                 </h1>
                 <h1>
-                Fb icon
+                <i className="fa fa-facebook-square" aria-hidden="true"></i>
                 </h1>
               </Row>
             </Col>

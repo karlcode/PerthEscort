@@ -10,11 +10,17 @@ import About from '../pages/About'
 import Services from '../pages/Services'
 import FAQ from '../pages/FAQ'
 import Contact from '../pages/Contact'
-
+import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 class App extends Component {
   render() {
     return (
+      <CSSTransitionGroup
+      transitionName="example"
+      transitionAppear={true}
+      transitionAppearTimeout={10000}
+      transitionEnter={false}
+      transitionLeave={false}>
       <Router >
         <div>
 
@@ -41,6 +47,7 @@ class App extends Component {
           
         </div>
       </Router>
+      </CSSTransitionGroup>
     );
   }
 }

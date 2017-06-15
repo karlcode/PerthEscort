@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import picture from './images/joshyboys-images/IMG_9113.JPG';
-import second from './images/joshyboys-images/IMG_9122.JPG';
+import second from './images/joshyboys-images/BODY.jpg';
+import third from './images/joshyboys-images/IMG_9122.JPG';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Slider from 'react-slick';
 export default class About extends Component {
   render() {
     var settings = {
       autoplay: true,
+      dots: true,
       adaptiveHeight: false,
       autoplaySpeed: 2500,
       infinite: true,
@@ -38,15 +40,7 @@ both the simple things and the finer pleasures in life, and of course, being a s
 
 companion/straight male escort is one of the finer.
 
-Between traveling with my parents, whose business kept them continually abroad,
-
-and traveling as an adult, I have visited over 30 countries across the five continents.
-
-I count Great Britain, Spain, France, Italy, Brazil, Dubai and of course, Australia
-
-among my favourites; with the added pleasure of having called each of these
-
-countries home at one time. </h2>
+ </h2>
       </Row>
       </Col>
       </Row>
@@ -59,25 +53,16 @@ countries home at one time. </h2>
           <Col xs={12} sm={6}>
             <Row left="xs" >
               <h2>
-        My experiences living and working as a local in the
+                Between traveling with my parents, whose business kept them continually abroad,
 
-myriad of different cultures helped mould me into a worldly and cultured gentleman.
+and traveling as an adult, I have visited over 30 countries across the five continents.
 
-This has developed a most valuable attribute in me which is to adapt to people and
+I count Great Britain, Spain, France, Italy, Brazil, Dubai and of course, Australia
 
-any given situation, making you feel relaxed as if we have known each other for
+among my favourites; with the added pleasure of having called each of these
 
-years. I love to have a good time, meet new people and experience new things. I am
-
-a great listener, enjoy stimulating conversation and can converse on all levels.
-
-I am D &amp; D free, I have no cosmetic mutilations of the flesh of any kind nor do I
-
-smoke but I don&#39;t mind if you wish to do so. I practice safe sex and get regular health
-
-check-ups done. I am meticulously clean and naturally will expect the same
-
-excellence of personal hygiene of you as well.
+countries home at one time.
+         
       </h2>
             </Row>
           </Col>
@@ -89,16 +74,52 @@ excellence of personal hygiene of you as well.
       </Grid> 
     </div>
     <div className="dark-bg">
-    <Grid fluid>
+        <Grid fluid>
+        <Row center="xs" middle="xs">
+          <Col xs={12} sm={4}>
+            <Row left="xs" >
+              <h2>
+        My experiences living and working as a local in the
+
+myriad of different cultures helped mould me into a worldly and cultured gentleman.
+
+This has developed a most valuable attribute in me which is to adapt to people and
+
+any given situation, making you feel relaxed as if we have known each other for
+
+years.
+      </h2>
+            </Row>
+          </Col>
+          <Col xs={12} sm={4}>
+          <img src={third} alt="hi"/>
+          </Col>
+          <Col xs={12} sm={4}>
+          <h2>I love to have a good time, meet new people and experience new things. I am
+
+a great listener, enjoy stimulating conversation and can converse on all levels.
+
+I am D &amp; D free, I have no cosmetic mutilations of the flesh of any kind nor do I
+
+smoke but I don&#39;t mind if you wish to do so. I practice safe sex and get regular health
+
+check-ups done. I am meticulously clean and naturally will expect the same
+
+excellence of personal hygiene of you as well.</h2>
+          </Col>
+        </Row>
+      </Grid> 
+    </div>
+    <Grid fluid className="light-bg">
       <Row>
         <Col xs={12}>
           <Row center="xs" around="xs">
            
             <Col xs={10}>
             <Slider {...settings}>
-              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
-              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
-              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
+               <h1>PUT YOUR 1st IMAGE HERE</h1>
+               <h1>PUT YOUR 2nd Image HERE</h1>
+               <h1>PUT YOUR IMAGE HERE</h1>
               
             </Slider>
             </Col>
@@ -108,8 +129,7 @@ excellence of personal hygiene of you as well.
           
         </Col>
       </Row>
-    </Grid> 
-    </div>
+    </Grid>  
     
   </div>
     );

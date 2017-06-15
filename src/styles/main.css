@@ -23,7 +23,8 @@ p {
   font-family: 'Calligraffitti', 'Arial', 'Serif'; }
 
 body, html {
-  margin: 0 !important; }
+  margin: 0 !important;
+  background: black; }
 
 .overlay {
   position: absolute;
@@ -75,6 +76,13 @@ body, html {
   transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .light-panel:hover {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+.example-appear {
+  opacity: 0; }
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: all 8s ease-in; }
 
 #home-landing {
   min-height: 80vh;

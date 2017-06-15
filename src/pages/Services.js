@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-
+import Slider from 'react-slick';
 
 export default class Services extends Component {
   render() {
+    var settings = {
+      autoplay: true,
+      adaptiveHeight: false,
+      autoplaySpeed: 2500,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
     return (
        <div className="dark-bg">
         <Grid fluid >
@@ -90,7 +99,26 @@ export default class Services extends Component {
           </Row>
         </div>
       </Grid> 
-       
+      <Grid fluid>
+      <Row>
+        <Col xs={12}>
+          <Row center="xs" around="xs">
+           
+            <Col xs={10}>
+            <Slider {...settings}>
+              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
+              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
+              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
+              
+            </Slider>
+            </Col>
+              
+              
+          </Row>
+          
+        </Col>
+      </Row>
+    </Grid>  
       </div>
     );
   }

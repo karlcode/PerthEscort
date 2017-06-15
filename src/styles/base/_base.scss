@@ -1,6 +1,6 @@
 body, html {
     margin: 0 !important;
-
+    background: black;
 
 }
 
@@ -69,4 +69,12 @@ body, html {
   &:hover{
      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   }
+}
+.example-appear {
+  opacity: 0;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: all 8s ease-in;
 }

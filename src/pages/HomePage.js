@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import joshRunwaySuit from './images/josh-runway-suit.jpg';
+import joshRunwaySuit from './images/josh-runway-suit.JPG';
 import joshBed from './images/josh-bed.jpg';
 
 export default class Home extends Component {
@@ -21,7 +21,7 @@ render() {
         <h2>My name is Josh Chase, and I am a professional companion. I am the perfect solution to your dilemma.</h2><h2>Welcome to my website - please have a look around and get to know me better, and if you feel we would be compatible, I would be delighted to hear from you.</h2>
       </section>
 
-            <Grid fluid>
+      <Grid fluid className="white">
         <Row>
             <Col xs={12}>
             <Row center="xs" around="xs">
