@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import './Services.css';
 
 export default class Services extends Component {
   render() {
