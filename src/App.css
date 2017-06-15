@@ -27,7 +27,7 @@
   transition: opacity .5s ease-in;
 }
 
-.container{
+/*.container{
     display: flex;
     -webkit-box-orient: horizontal;
     -ms-flex-flow: row;
@@ -37,7 +37,7 @@
     padding-left: 10%;
     padding-right: 10%;
 }
-
+*/
 .half{
     position: relative;
     box-sizing: border-box;

@@ -11,7 +11,6 @@ import Services from '../pages/Services'
 import FAQ from '../pages/FAQ'
 import Contact from '../pages/Contact'
 
-import './Navbar.css';
 
 class App extends Component {
   render() {
@@ -27,11 +26,15 @@ class App extends Component {
 
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/services">Services and Rates</Link></li>
-              <li><Link to="/faq">FAQ</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <div className="nav-left">
+                <li><Link to="/" className="fancy">JC</Link></li>
+              </div>
+              <div className="nav-right">
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/faq">FAQ</Link></li>
+                <li><Link to="/services">Services and Rates</Link></li>
+                <li><Link to="/about">About</Link></li>                
+              </div>
             </ul>
           </nav>
           

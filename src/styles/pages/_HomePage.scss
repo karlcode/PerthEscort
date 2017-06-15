@@ -1,0 +1,44 @@
+#home-landing {
+  min-height: 80vh;
+  background-image: url('./pages/images/home-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#home-title {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  h1, h3 {
+    color: $lighter;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+
+#home-down {
+  color: $darker;
+  font-size: 25px;
+  position: absolute;
+  left: 50%;
+  bottom: 3%;
+  animation: home-down-blinker 2s ease-out infinite;
+}
+
+@keyframes home-down-blinker {  
+  50% {
+    opacity: 0.1; 
+  }
+}
+
