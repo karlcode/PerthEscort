@@ -23,15 +23,11 @@ p {
   font-family: 'Calligraffitti', 'Arial', 'Serif'; }
 
 body, html {
-  margin: 0 !important;
-  height: 100vh; }
+  margin: 0 !important; }
 
 .overlay {
   position: absolute;
   z-index: 1; }
-
-.content {
-  padding-top: 64px; }
 
 .light-bg {
   background-color: ghostwhite;
@@ -44,6 +40,7 @@ body, html {
 .dark-bg {
   padding-top: 10rem;
   padding-bottom: 10rem;
+  background-color: lightgrey;
   padding-left: 5rem;
   padding-right: 5rem; }
 
