@@ -16,5 +16,13 @@ p {font-size: 22px;}
 .fancy {font-family: $fancy-font};
 .center {text-align: center;}
 
-
+a{
+    text-decoration: none;
+    color: $primary;
+    transition: all 0.5s;
+  &:hover{
+    color: $lightest;
+    transition: all 0.5s;
+  }
+}
 

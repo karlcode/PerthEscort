@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import joshRunwaySuit from './images/josh-runway-suit.jpg';
+import joshRunwaySuit from './images/josh-runway-suit.JPG';
 import joshBed from './images/josh-bed.jpg';
 
 export default class Home extends Component {

@@ -21,8 +21,20 @@ p {
 .center {
   text-align: center; }
 
+a {
+  text-decoration: none;
+  color: #1D1D1D;
+  transition: all 0.5s; }
+  a:hover {
+    color: #fff;
+    transition: all 0.5s; }
+
 body, html {
   margin: 0 !important; }
+
+a {
+  text-decoration: none;
+  color: #1D1D1D; }
 
 .container {
   box-sizing: border-box;
@@ -59,10 +71,10 @@ body, html {
   min-height: 0;
   min-width: 0; }
 
-.hoverable h2 {
+.hoverable p {
   transition: all 0.5s;
   cursor: default; }
-  .hoverable h2:hover {
+  .hoverable p:hover {
     color: #fff;
     transition: all 0.5s; }
 

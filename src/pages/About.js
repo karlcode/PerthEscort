@@ -28,7 +28,7 @@ export default class About extends Component {
       <Col sm={2}/>
       <Col xs={12} sm={6}>
       <Row end="xs">
-          <h2>I am 36 years old, of Latin origin, fair skinned and dark haired, well hung, handsome,
+          <p>I am 36 years old, of Latin origin, fair skinned and dark haired, well hung, handsome,
 
 stunning hazel eyes with a toned and lean body, I stand 6ft tall. I have enjoyed a
 
@@ -40,7 +40,7 @@ both the simple things and the finer pleasures in life, and of course, being a s
 
 companion/straight male escort is one of the finer.
 
- </h2>
+ </p>
       </Row>
       </Col>
       </Row>
@@ -52,7 +52,7 @@ companion/straight male escort is one of the finer.
         <Row middle="xs">
           <Col xs={12} sm={6}>
             <Row left="xs" >
-              <h2>
+              <p>
                 Between traveling with my parents, whose business kept them continually abroad,
 
 and traveling as an adult, I have visited over 30 countries across the five continents.
@@ -63,7 +63,7 @@ among my favourites; with the added pleasure of having called each of these
 
 countries home at one time.
          
-      </h2>
+      </p>
             </Row>
           </Col>
           <Col sm={2}/>
@@ -78,7 +78,7 @@ countries home at one time.
         <Row center="xs" middle="xs">
           <Col xs={12} sm={4}>
             <Row left="xs" >
-              <h2>
+              <p>
         My experiences living and working as a local in the
 
 myriad of different cultures helped mould me into a worldly and cultured gentleman.
@@ -88,16 +88,22 @@ This has developed a most valuable attribute in me which is to adapt to people a
 any given situation, making you feel relaxed as if we have known each other for
 
 years.
-      </h2>
+      </p>
             </Row>
           </Col>
           <Col xs={12} sm={4}>
           <img src={third} alt="hi"/>
           </Col>
           <Col xs={12} sm={4}>
-          <h2>I love to have a good time, meet new people and experience new things. I am
+          <Row>
+          <p>I love to have a good time, meet new people and experience new things. I am
 
 a great listener, enjoy stimulating conversation and can converse on all levels.
+
+</p>
+          </Row>
+          <Row>
+          <p>
 
 I am D &amp; D free, I have no cosmetic mutilations of the flesh of any kind nor do I
 
@@ -105,7 +111,9 @@ smoke but I don&#39;t mind if you wish to do so. I practice safe sex and get reg
 
 check-ups done. I am meticulously clean and naturally will expect the same
 
-excellence of personal hygiene of you as well.</h2>
+excellence of personal hygiene of you as well.</p>
+          </Row>
+          
           </Col>
         </Row>
       </Grid> 
