@@ -3,7 +3,7 @@ $nav-padding: 14px;
 $nav-height: $nav-fontsize + 2 * $nav-padding;
 
 body {
-  padding-top: $nav-height - 1;
+  padding-top: $nav-height;
 }
 
 .nav-left {

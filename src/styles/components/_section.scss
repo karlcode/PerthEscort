@@ -1,0 +1,14 @@
+
+
+.light-section, .dark-section {
+  padding: $vertical-gap 0;
+}
+
+.light-section {
+  background-color: $light-panel;
+}
+
+.dark-section {
+  background-color: $dark-panel;
+}
+

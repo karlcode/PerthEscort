@@ -6,26 +6,21 @@ a{
   color: $primary;
 }
 
-.container {
+.container, .full-container {
   box-sizing: border-box;
   padding: 0px 32px;
   width: 100%;
-  max-width: 1000px;
   margin: auto;
 }
 
-.light-section, .dark-section {
-  padding: 9rem 0;
+.container {
+  max-width: 1000px;
 }
 
-.light-section {
-  background-color: $light-panel;
+.img-responsive {
+  width: 100%;
+  display: block;
 }
-
-.dark-section {
-  background-color: $dark-panel;
-}
-
 
 
 

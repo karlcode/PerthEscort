@@ -4,10 +4,12 @@
 @import 'base/base';
 
 @import 'pages/HomePage';
+@import 'pages/AboutPage';
 
-@import 'components/panel';
+@import 'components/section';
 @import 'components/Navbar';
 @import 'components/Footer';
+@import 'components/Grid';
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
