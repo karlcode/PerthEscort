@@ -193,6 +193,12 @@ a {
   max-width: 100%;
   height: 400px; }
 
+#about-row4 .row {
+  margin: 0; }
+
+#about-row4 .col-sm-6 {
+  padding: 0; }
+
 .light-section, .dark-section {
   padding: 144px 0; }
 

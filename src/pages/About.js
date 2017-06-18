@@ -21,6 +21,7 @@ export default class About extends Component {
   render() {
 
     var sliderSettings = {
+      arrows: false,
       autoplay: true,
       dots: true,
       adaptiveHeight: false,

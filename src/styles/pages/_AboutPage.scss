@@ -23,8 +23,18 @@
 
 // Slider
 #about-row3 {
+
   img {
     max-width: 100%;
     height: 400px;
+  }
+}
+
+#about-row4 {
+  .row {
+    margin: 0;
+  }
+  .col-sm-6 {
+    padding: 0;
   }
 }
