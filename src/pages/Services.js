@@ -19,7 +19,7 @@ export default class Services extends Component {
           <Row>
             <Col xs={12}>
               <Row center="xs">
-                <h1><b>Services Offered</b></h1>
+                <p><b>Services Offered</b></p>
               </Row>
               <hr/>
               <Row center="xs" around="xs" className="hoverable">
@@ -49,7 +49,7 @@ export default class Services extends Component {
             <Col xs={12}>
               <Row center="xs" around="xs">
                 <Col xs={12} sm={5} className="light-panel">
-                <h1>Therapeutic Body Service</h1>
+                <p>Therapeutic Body Service</p>
                 <hr/>
                 <Row center="xs">
                   <Col xs={8}><p>Sensual Body Rub</p></Col>
@@ -66,7 +66,7 @@ export default class Services extends Component {
                 </Col>
                 <Col sm={1}/>
                 <Col xs={12} sm={5} className="light-panel">
-                <h1>Erotic Sensual Playdates</h1>
+                <p>Erotic Sensual Playdates</p>
                 <hr/>
                 <Row center="xs">
                   <Col xs={8}><p>Cocktail Play Date</p></Col>
@@ -104,11 +104,11 @@ export default class Services extends Component {
         <Col xs={12}>
           <Row center="xs" around="xs">
            
-            <Col xs={10}>
+            <Col xs={12} sm={8}>
             <Slider {...settings}>
-              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
-              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
-              <div><h1><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></h1></div>
+              <div><p><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></p></div>
+              <div><p><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></p></div>
+              <div><p><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></p></div>
               
             </Slider>
             </Col>

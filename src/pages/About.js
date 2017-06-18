@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import portraitShirtless from './images/about/josh-portrait-shirtless.jpg';
-import map from './images/about/world-map.png';
+
 
 import slide1 from './images/about/slide1.jpg';
 import slide2 from './images/about/slide2.jpg';
@@ -38,7 +38,7 @@ export default class About extends Component {
         <div id="about-row1" className="full-container dark-section">
           <Row>
             <Col sm={3} mdOffset={0} md={4} lgOffset={1} lg={3} className="hidden-md-down">
-              <img src={portraitShirtless} alt="hi" className="img-responsive"/>
+              <img src={portraitShirtless} alt="img" className="img-responsive" id="blur"/>
             </Col>
             <Col xsOffset={1} xs={10} mdOffset={1} md={6} lgOffset={1} lg={5}>
                 <h1>About Me</h1>
@@ -63,15 +63,15 @@ export default class About extends Component {
 
         <div id="about-row3">
           <Slider {...sliderSettings}>
-            <div><img src={slide1}/></div>
-            <div><img src={slide2}/></div>
-            <div><img src={slide3}/></div>
-            <div><img src={slide4}/></div>
-            <div><img src={slide5}/></div>
-            <div><img src={slide6}/></div>
-            <div><img src={slide9}/></div>
-            <div><img src={slide7}/></div>
-            <div><img src={slide8}/></div>
+            <div><img alt="img" src={slide1}/></div>
+            <div><img alt="img" src={slide2}/></div>
+            <div><img alt="img" src={slide3}/></div>
+            <div><img alt="img" src={slide4}/></div>
+            <div><img alt="img" src={slide5}/></div>
+            <div><img alt="img" src={slide6}/></div>
+            <div><img alt="img" src={slide9}/></div>
+            <div><img alt="img" src={slide7}/></div>
+            <div><img alt="img" src={slide8}/></div>
           </Slider>
         </div>
 
