@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-import portraitShirtless from './images/about/josh-portrait-shirtless.jpg';
+import portraitShirtless from './images/about/josh-portrait-shirtless.png';
 
 
 import slide1 from './images/about/slide1.jpg';
