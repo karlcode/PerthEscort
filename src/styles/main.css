@@ -95,8 +95,7 @@ a {
   background-image: url("./pages/images/home-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  filter: grayscale(60%); }
+  position: relative; }
 
 #home-title {
   position: absolute;

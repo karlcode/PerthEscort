@@ -19,7 +19,7 @@ export default class Services extends Component {
           <Row>
             <Col xs={12}>
               <Row center="xs">
-                <p><b>Services Offered</b></p>
+                <h1>Services Offered</h1>
               </Row>
               <hr/>
               <Row center="xs" around="xs" className="hoverable">
@@ -105,10 +105,11 @@ export default class Services extends Component {
           <Row center="xs" around="xs">
            
             <Col xs={12} sm={8}>
+            <h1>What My Guests Have Said About Me</h1>
             <Slider {...settings}>
               <div><p><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></p></div>
-              <div><p><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></p></div>
-              <div><p><i>"Josh is one of the very few top class escorts based in Perth, I booked him straight away due to his professional well written profile and positive reviews, he was exactly what I wanted. The perfect Boyfriend experience. I was very specific with what I asked for, a few drinks, a home cooked dinner, and a snug movie on the couch. I wasn't after sex, or a man to want to jump my bones, quite the opposite, I wanted a man who could hold down decent and intellectual conversation, rub my shoulders and genuinely enjoy my company." </i></p></div>
+              <div><p><i>"Josh is just as he describes in his profile and I booked him for a 3 hour dinner date. I'd been in Sydney on business and had a free evening so decided to take the plunge. I was feeling a bit nervous before hand but I was put at ease as soon as I met him. He's a real gentleman and we enjoyed a lovely dinner together, chatting easily about all sorts of things before we went up to my hotel room." </i></p></div>
+              <div><p><i>"It was with great pleasure that I had a wonderful rendezvous with this handsome, young escort. Josh is the epitome of a gentleman and we started our evening with an early dinner at a waterfront cafe where he was very attentive and an entertaining conversationalist. We then adjourned to the hotel and the mood was set with some subtle background music and intimate play.  " </i></p></div>
               
             </Slider>
             </Col>
