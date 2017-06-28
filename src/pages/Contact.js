@@ -15,7 +15,7 @@ export default class Contact extends Component {
                   </Row> 
               <Row left="xs">
                   <p>
-              If you would feel more comfortable with sending a text or an email, please feel free to do so. In order to maintain the mystique of our dealings, the majority of my clients prefer to communicating in writing to discuss the finer details.
+              If you would feel more comfortable with sending a text or an email, please feel free to do so.
                 </p>
               </Row>
               <Row left="xs">

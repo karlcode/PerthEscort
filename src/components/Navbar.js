@@ -35,6 +35,7 @@ class App extends Component {
             <ul>
               <div className="nav-left">
                 <li><Link to="/" className="fancy">JC</Link></li>
+                <li><Link to="/">Perth's Elite Male Escort for Women</Link></li>
               </div>
               <div className="nav-right">
                 <li><Link to="/contact">Contact</Link></li>

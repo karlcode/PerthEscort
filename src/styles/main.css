@@ -1,7 +1,7 @@
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 body, p, i, h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  color: #fff;
   font-family: "Spectral", "Arial", "Serif";
   font-weight: 300; }
 
@@ -23,44 +23,42 @@ p {
 
 a {
   text-decoration: none;
-  color: #1D1D1D;
+  color: #fff;
   transition: all 0.5s; }
   a:hover {
-    color: #fff;
+    color: #A3A3A3;
     transition: all 0.5s; }
 
 body, html {
   margin: 0 !important; }
 
-a {
-  text-decoration: none;
-  color: #1D1D1D; }
-
-.container, .full-container {
+.container {
   box-sizing: border-box;
   padding: 0px 32px;
   width: 100%;
+  max-width: 1000px;
   margin: auto; }
 
-.container {
-  max-width: 1000px; }
+.light-section, .dark-section {
+  padding: 9rem 0; }
 
-.img-responsive {
-  width: 100%;
-  display: block; }
+.light-section {
+  background-color: #333; }
+
+.dark-section {
+  background-color: #333; }
 
 .light-bg {
-  background-color: ghostwhite;
+  background-color: #1D1D1D;
   padding-top: 9rem;
   padding-bottom: 9rem;
   padding-left: 5rem;
-  padding-right: 5rem;
-  color: black; }
+  padding-right: 5rem; }
 
 .dark-bg {
   padding-top: 9rem;
   padding-bottom: 9rem;
-  background-color: lightgrey;
+  background-color: #333;
   padding-left: 5rem;
   padding-right: 5rem; }
 
@@ -76,7 +74,7 @@ a {
     transition: all 0.5s; }
 
 .light-panel {
-  background-color: white;
+  background-color: dimgrey;
   padding: 4rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1); }
@@ -153,7 +151,7 @@ a {
   width: 100%;
   position: relative;
   height: 57.6px;
-  background: #f8f8ff; }
+  background: #333; }
   #home-split-images-left-tri:after, #home-split-images-right-tri:after {
     position: absolute;
     height: 57.6px;
@@ -184,7 +182,7 @@ a {
 #about-row2 {
   overflow: auto;
   margin: 0;
-  background-image: url("./pages/images/world-map.jpg");
+  background-image: url("./pages/images/world-map.png");
   background-size: cover; }
   #about-row2 .row {
     margin: 0; }
@@ -203,10 +201,10 @@ a {
   padding: 144px 0; }
 
 .light-section {
-  background-color: #f8f8ff; }
+  background-color: #333; }
 
 .dark-section {
-  background-color: #D3D3D3; }
+  background-color: #333; }
 
 body {
   padding-top: 48px; }
