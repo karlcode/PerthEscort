@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 export default class Contact extends Component {
   render() {
     return (
-      <div className="dark-bg">
+      <div className="dark-section">
         <Grid>
             <Row middle="xs">
               <Col xs={12} sm={7}>

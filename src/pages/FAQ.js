@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-
+import servicesImage from './images/joshyboys-images/services.jpg';
+import faqImage from './images/joshyboys-images/faq.jpg';
+import shyImage from './images/joshyboys-images/shy.jpg';
 export default class FAQ extends Component {
   render() {
     return (
        <div>
-         <div className="dark-bg">
+         <div className="dark-section">
             <Grid>
               <Row >
                 <Col xs={12}>
@@ -24,18 +26,21 @@ export default class FAQ extends Component {
             </Grid> 
           </div>
           <div className="light-bg">
-            <Grid>
+            <Grid fluid>
               <Row>
-                <Col xs={12}>
+                <Col xs={12} sm={5}>
                   <Row left="xs">
                       <h1>Are the photos on your site really of you?</h1>
                   </Row>
                   <p>Yes, absolutely! Each one represents me accurately and I am confident you will be pleased with my appearance. I take great pride in maintaining my exquisite grooming.</p>
                 </Col>
+                <Col xs={4}>
+                  <img src={servicesImage} alt="services" className="img-responsive hidden-md-down" id="shadowed"/>
+                </Col>
               </Row>
             </Grid> 
           </div>
-          <div className="dark-bg">
+          <div className="dark-section">
             <Grid>
               <Row>
                 <Col xs={12}>
@@ -48,9 +53,12 @@ export default class FAQ extends Component {
             </Grid> 
           </div>
           <div className="light-bg">
-            <Grid>
+            <Grid fluid>
               <Row>
-                <Col xs={12}>
+                <Col md={7}>
+                  <img src={faqImage} alt="faq" className="img-responsive hidden-md-down" id="shadowed"/>
+                </Col>
+                <Col xs={12} md={4}>
                    <Row left="xs">
                       <h1>What will you wear for our date?</h1>
                   </Row>
@@ -59,7 +67,7 @@ export default class FAQ extends Component {
               </Row>
             </Grid> 
           </div>
-          <div className="dark-bg">
+          <div className="dark-section">
             <Grid>
               <Row>
                 <Col xs={12}>
@@ -81,6 +89,9 @@ export default class FAQ extends Component {
                   </Row>
                   <p>I completely understand and it's perfectly normal to feel shy or apprehensive at first. I am confident we can find a common language and put a smile on your face. Simply send me a text or email me and let me know what you have in mind. We can always chat via text, phone or email when you feel comfortable. During a session, to break the ice we can start by having a drink and snacks in a relaxed atmosphere and have a conversation to get to know each other a little bit better. Once you feel comfortable and more confident, we'll take it from there. I can always guide you through but I will not do anything that you are not comfortable with. The idea is to have an enjoyable and fun time and fulfill all your fantasies.</p>
                 </Col>
+              </Row>
+              <Row>
+                <img src={shyImage} alt="shy" className="img-responsive hidden-md-down" id="shadowed"/>
               </Row>
             </Grid> 
           </div>
