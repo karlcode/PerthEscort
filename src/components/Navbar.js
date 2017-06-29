@@ -4,13 +4,13 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import Home from '../pages/HomePage'
 import About from '../pages/About'
 import Services from '../pages/Services'
 import FAQ from '../pages/FAQ'
 import Contact from '../pages/Contact'
-import { CSSTransitionGroup } from 'react-transition-group' // ES6
+//import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 class App extends Component {
   render() {
@@ -30,7 +30,8 @@ class App extends Component {
           <Route path="/services" component={Services}/>
           <Route path="/faq" component={FAQ}/>
           <Route path="/contact" component={Contact}/>
-
+          
+          <Row className="hidden-md-down">
           <nav>
             <ul>
               <div className="nav-left">
@@ -46,7 +47,20 @@ class App extends Component {
               </div>
             </ul>
           </nav>
-          
+          </Row>
+          <Row className="hidden-lg-up">
+          <nav>
+            <ul>
+              <div className="nav-left">
+                <li><Link to="/" className="fancy">JC</Link></li>
+                <li><Link to="/">Perth's Elite Male Escort</Link></li>
+              </div>
+              <Col xsOffset={10} xs={1}>
+                <Link to="/" className="fancy"><i className="fa fa-bars" aria-hidden="true"></i></Link>         
+              </Col>
+            </ul>
+          </nav>
+          </Row>
         </div>
       </Router>
       //</CSSTransitionGroup>
