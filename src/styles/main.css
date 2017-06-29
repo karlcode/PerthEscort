@@ -86,17 +86,13 @@ body, html {
   opacity: 1;
   transition: all 8s ease-in; }
 
-<<<<<<< HEAD
-#home-landing .homeSlide {
-=======
 #shadowed {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
 
 .top-padded {
   padding-top: 4rem; }
 
-#home-landing {
->>>>>>> 45ddb0faf084041ddd57aa0ce61d28abee379c1a
+#home-landing .homeSlide {
   min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,6 +111,7 @@ body, html {
   background-image: url("./pages/images/home/slide3.jpg"); }
 
 #home-title {
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 15%;
   top: 50%;
@@ -142,6 +139,15 @@ body, html {
         font-size: 35px; }
       #home-title h3 {
         font-size: 20px; } }
+  #home-title #home-slider-buttons {
+    padding-top: 40px; }
+    #home-title #home-slider-buttons .slider-button {
+      box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+      height: 15px;
+      width: 40px;
+      margin-right: 20px;
+      background-color: white;
+      display: inline-block; }
 
 #home-down {
   color: #A3A3A3;

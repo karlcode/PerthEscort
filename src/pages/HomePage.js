@@ -17,7 +17,7 @@ render() {
       speed: 3000,
       slidesToScroll: 1,
       fade: true,
-      swipeToSlide: false
+      swipeToSlide: false,
   };
   return (
     <div id="home-page">
@@ -32,6 +32,12 @@ render() {
           <h1>Perth's Elite Male Escort</h1>
           <h1>for Women</h1>
           <h3>For that ultimate boyfriend experience</h3>
+
+          <div id="home-slider-buttons">
+            <div className="slider-button" />
+            <div className="slider-button" />
+            <div className="slider-button" />
+          </div>
         </div>
       </section>
 
