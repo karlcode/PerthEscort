@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Slider from 'react-slick';
-
+import servicesImage from './images/joshyboys-images/services.jpg';
 export default class Services extends Component {
   render() {
     var settings = {
@@ -14,41 +14,49 @@ export default class Services extends Component {
       slidesToScroll: 1,
     };
     return (
-       <div className="dark-bg">
+       <div className="dark-section">
         <Grid fluid >
           <Row>
             <Col xs={12}>
+              
               <Row center="xs">
                 <h1>Services Offered</h1>
               </Row>
               <hr/>
-              <Row center="xs" around="xs" className="hoverable">
-                <Col xs={3}><p>Affectionate kissing</p>
+              <Row center="xs" around="xs" className="hoverable ">
+                <Col xs={6} sm={3}><p>Affectionate kissing</p>
                             <p>Cuddling and touching</p>
                             <p>Mutual French</p>
                              </Col>
-                <Col xs={3}><p>Shower for two</p>
+                <Col xs={6} sm={3}><p>Shower for two</p>
                             <p>Passionate kissing</p>
                             <p>Oral</p>
                             <p>French kissing</p> </Col>
-                <Col xs={3}><p>Sensual body massage</p>
+                <Col xs={6} sm={3}><p>Sensual body massage</p>
                             <p>Variety of positions</p>
-                            <p>Mutual masturbation</p></Col>
-                <Col xs={3}><p>Stripping</p>
+                            <p>Mutual masturbation</p>
+                            <p>Tight bondage</p></Col>
+                <Col xs={6} sm={3}><p>Stripping</p>
                             <p>2 girls | 1 guy</p>
                             <p>Couples</p>
-                            <p>Tight bondage</p></Col>
+                            </Col>
+              </Row>
+              <Row center="xs" className="top-padded">
+                <img src={servicesImage} alt="services" className="img-responsive hidden-md-down" id="shadowed"/>
               </Row>
             </Col> 
           </Row>
           </Grid>
           
         <Grid fluid >
-        <div className="dark-bg">
+        <div className="dark-section">
+          <Row center="xs">
+                <h1>Rates</h1>
+          </Row>
           <Row >
             <Col xs={12}>
               <Row center="xs" around="xs">
-                <Col xs={12} sm={5} className="light-panel">
+                <Col xs={12} sm={12} md={5} className="light-panel">
                 <p>Therapeutic Body Service</p>
                 <hr/>
                 <Row center="xs">
@@ -65,7 +73,7 @@ export default class Services extends Component {
                 </Row>  
                 </Col>
                 <Col sm={1}/>
-                <Col xs={12} sm={5} className="light-panel">
+                <Col xs={12} sm={12} md={5} className="light-panel">
                 <p>Erotic Sensual Playdates</p>
                 <hr/>
                 <Row center="xs">
