@@ -25,11 +25,11 @@ export default class About extends Component {
       autoplay: true,
       dots: true,
       adaptiveHeight: false,
-      autoplaySpeed: 2500,
+      autoplaySpeed: 3500,
       infinite: true,
-      speed: 3000,
       slidesToScroll: 1,
-      variableWidth: true
+      variableWidth: true,
+      speed: 3000
     };
 
     return (

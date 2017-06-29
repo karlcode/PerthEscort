@@ -88,28 +88,52 @@ body, html {
   opacity: 1;
   transition: all 8s ease-in; }
 
-#home-landing {
+#home-landing .homeSlide {
   min-height: 80vh;
-  background-image: url("./pages/images/home-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+
+#home-landing #homeSlide1 {
+  min-height: 80vh;
+  background-image: url("./pages/images/home/slide1.jpg"); }
+
+#home-landing #homeSlide2 {
+  min-height: 80vh;
+  background-image: url("./pages/images/home/slide2.jpg"); }
+
+#home-landing #homeSlide3 {
+  min-height: 80vh;
+  background-image: url("./pages/images/home/slide3.jpg"); }
 
 #home-title {
   position: absolute;
   left: 15%;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  max-width: 65%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px; }
   #home-title h1, #home-title h3 {
+    color: #fff;
     font-family: "Source Sans Pro", "Arial", "Serif";
-    font-weight: 200;
-    color: #d5d5d5;
+    font-weight: 300;
     margin: 0; }
   #home-title h1 {
     font-size: 50px; }
   #home-title h3 {
     font-size: 25px;
     margin-top: 10px; }
+  @media screen and (max-width: 900px) {
+    #home-title {
+      left: 0%;
+      max-width: 80vw;
+      width: 80vw;
+      text-align: center; }
+      #home-title h1 {
+        font-size: 35px; }
+      #home-title h3 {
+        font-size: 20px; } }
 
 #home-down {
   color: #A3A3A3;
@@ -266,9 +290,7 @@ nav a {
 .footer-bg {
   background-color: #1D1D1D;
   padding-top: 3rem;
-  padding-bottom: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem; }
+  padding-bottom: 2rem; }
 
 .footer-bg p, .footer-bg h2, .footer-bg h3, .footer-bg h4 {
   color: #A3A3A3;

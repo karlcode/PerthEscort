@@ -1,11 +1,25 @@
 
 
 #home-landing {
-  min-height: 80vh;
-  background-image: url('./pages/images/home-background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  .homeSlide {
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #homeSlide1 {
+    min-height: 80vh;
+    background-image: url('./pages/images/home/slide1.jpg');
+  }
+  #homeSlide2 {
+    min-height: 80vh;
+    background-image: url('./pages/images/home/slide2.jpg');
+  }
+  #homeSlide3 {
+    min-height: 80vh;
+    background-image: url('./pages/images/home/slide3.jpg');
+  }
 }
 
 #home-title {
@@ -13,11 +27,14 @@
   left: 15%;
   top: 50%;
   transform: translateY(-50%);
+  max-width: 65%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
 
   h1, h3 {
+    color: #fff;
     font-family: $heading-font;
-    font-weight: 200;
-    color: $lighter;
+    font-weight: 300;
     margin: 0;
   }
 
@@ -29,6 +46,22 @@
     font-size: 25px;
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 900px) {
+    left: 0%;
+    max-width: 80vw;
+    width: 80vw;
+    text-align: center;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+  
 }
 
 #home-down {
