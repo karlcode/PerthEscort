@@ -11,7 +11,7 @@ import Services from '../pages/Services'
 import FAQ from '../pages/FAQ'
 import Contact from '../pages/Contact'
 //import { CSSTransitionGroup } from 'react-transition-group' // ES6
-
+import { slide as Menu } from 'react-burger-menu'
 class App extends Component {
   render() {
     return (
@@ -55,8 +55,26 @@ class App extends Component {
                 <li><Link to="/" className="fancy">JC</Link></li>
                 <li><Link to="/">Perth's Elite Male Escort</Link></li>
               </div>
-              <Col xsOffset={10} xs={1}>
-                <Link to="/" className="fancy"><i className="fa fa-bars" aria-hidden="true"></i></Link>         
+              <Col xsOffset={10} xs={1}>  
+                <Menu right isOpen={ false } >
+                  <Grid>
+                  <Row>
+                  <Link to="/">Home</Link>
+                  </Row>
+                  <Row>
+                  <Link to="/about">About</Link>
+                  </Row>
+                  <Row>
+                  <Link to="/services">Services and Rates</Link>
+                  </Row>
+                  <Row>
+                  <Link to="/faq">FAQ</Link>
+                  </Row>
+                  <Row>
+                  <Link to="/contact">Contact</Link>
+                  </Row>
+                  </Grid>
+                </Menu>      
               </Col>
             </ul>
           </nav>
