@@ -44,8 +44,17 @@ export default class Contact extends Component {
               </Row>
             </Col>
           </Row>
-        </Grid> 
-       
+          <Row center="xs">
+            <form action="https://formspree.io/karl@loaft.com.au"
+                  method="POST">
+                <h2>Name:</h2>
+                <input type="text" name="name"/>
+                <h2>Message:</h2>
+                <input type="email" name="_replyto"/>
+                <input type="submit" value="Send"/>
+            </form>
+          </Row>
+        </Grid>
       </div>
           
     );

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Slider from 'react-slick';
-import servicesImage from './images/joshyboys-images/services.jpg';
+import suit from './images/suit.jpg';
 export default class Services extends Component {
   render() {
     var settings = {
@@ -42,7 +42,7 @@ export default class Services extends Component {
                             </Col>
               </Row>
               <Row center="xs" className="top-padded">
-                <img src={servicesImage} alt="services" className="img-responsive hidden-md-down" id="shadowed"/>
+                <img src={suit} alt="services" className="img-responsive hidden-md-down" id="shadowed"/>
               </Row>
             </Col> 
           </Row>

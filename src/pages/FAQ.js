@@ -27,8 +27,8 @@ export default class FAQ extends Component {
           </div>
           <div className="light-bg">
             <Grid fluid>
-              <Row>
-                <Col xs={12} sm={5}>
+              <Row >
+                <Col smOffset={1} xs={12} sm={5}>
                   <Row left="xs">
                       <h1>Are the photos on your site really of you?</h1>
                   </Row>
@@ -55,10 +55,10 @@ export default class FAQ extends Component {
           <div className="light-bg">
             <Grid fluid>
               <Row>
-                <Col md={7}>
+                <Col mdOffset={1}  md={5}>
                   <img src={faqImage} alt="faq" className="img-responsive hidden-md-down" id="shadowed"/>
                 </Col>
-                <Col xs={12} md={4}>
+                <Col mdOffset={1} xs={12} md={4}>
                    <Row left="xs">
                       <h1>What will you wear for our date?</h1>
                   </Row>

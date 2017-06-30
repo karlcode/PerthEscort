@@ -63,15 +63,11 @@ export default class About extends Component {
 
         <div id="about-row3">
           <Slider {...sliderSettings}>
-            <div><img alt="img" src={slide1}/></div>
             <div><img alt="img" src={slide2}/></div>
             <div><img alt="img" src={slide3}/></div>
             <div><img alt="img" src={slide4}/></div>
-            <div><img alt="img" src={slide5}/></div>
             <div><img alt="img" src={slide6}/></div>
             <div><img alt="img" src={slide9}/></div>
-            <div><img alt="img" src={slide7}/></div>
-            <div><img alt="img" src={slide8}/></div>
           </Slider>
         </div>
 

@@ -27,8 +27,10 @@ render() {
           <div className="homeSlide" id="homeSlide2"></div>
           <div className="homeSlide" id="homeSlide3"></div>
         </Slider>
-
+        
         <div id="home-title">
+          <h1>Josh Chase</h1>
+          <hr/>
           <h1>Perth's Elite Male Escort</h1>
           <h1>for Women</h1>
           <h3>For that ultimate boyfriend experience</h3>
@@ -44,7 +46,7 @@ render() {
       <section id="home-welcome" className="full-container dark-section">
         <Col xsOffset={1} xs={10} mdOffset={1} md={10} lgOffset={2} lg={8}>
           <h2 className="center">Greetings my lovely,</h2>
-          <p>Thank you for making your way to my site. As our society has evolved into a moreegalitarian and a less judgemental one women have been afforded opportunities to explore dimensions that heretofore had been generally open only to men. It has become far more acceptable for a woman to wish to spend time with a qualitygentleman without the complications of a commitment or a relationship. If you aresuch a woman then I encourage you to peruse this site.</p>
+          <p>Thank you for making your way to my site. As our society has evolved into a more egalitarian and a less judgemental one women have been afforded opportunities to explore dimensions that heretofore had been generally open only to men. It has become far more acceptable for a woman to wish to spend time with a quality gentleman without the complications of a commitment or a relationship. If you are such a woman then I encourage you to peruse this site.</p>
           <p>My name is Josh Chase, and I am a professional companion. I am the perfect solution to your dilemma.</p>
           <p>Welcome to my website - please have a look around and get to know me better, and if you feel we would be compatible, I would be delighted to hear from you.</p>
           <h3 id="home-signature" className="fancy">JC</h3>
